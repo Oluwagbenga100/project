@@ -1,0 +1,79 @@
+.boot{
+    background-color: #6d1830;
+    color: white;
+    margin-right: 60px;
+}
+.one{
+    background-color: #fff9f2;
+}
+.line{
+    width: 70%;
+    border-bottom: 1px solid black;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+@media screen and (max-width:600px) {
+    .data{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:1000px) {
+    .data{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:1000px) {
+    .kay{
+        flex-direction: column-reverse;
+    }
+}
+.rec{
+    background-color: #14394c;
+    height: 50vh;
+    border-radius: 4px;
+}
+.dot{
+    height: 140%;
+    margin-top: -15%;
+    margin-left: 100px;
+}
+@media screen and (max-width:1000px) {
+    .rec{
+        flex-direction: column-reverse;
+        height: 100vh;
+    }
+    .word{
+        margin-bottom:0px;
+    }
+    .dot{
+        padding-right: -0px;
+        height: 100%;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .rec{
+        flex-direction: column-reverse;
+        height: 100vh;
+    }
+    .word{
+        margin-bottom:100px;
+    }
+    .dot{
+        height: 100%;
+    }
+    
+}
+.dat{
+    margin-top: -3px;
+    margin-left: -120px ;
+}
+.love{
+    height: 70vh;
+    background-image:url(img/image\ 39\ \(1\).png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    
+}
